@@ -1,12 +1,11 @@
 pipeline {
     agent any
     
-    }
     stages {
-        stage('Git checout') {
+        stage('Example') {
             steps {
-                echo 'Hellow Hashmi'
-                
+                sh 'df -h'
+                echo 'Hello Hashmi'
             }
         }
     }
