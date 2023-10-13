@@ -6,7 +6,7 @@ pipeline {
         stage('Git checout') {
             steps {
                 echo 'Hellow Hashmi'
-                sh "df -f"
+                
             }
         }
     }
